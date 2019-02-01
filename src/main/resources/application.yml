@@ -4,6 +4,12 @@ micronaut:
         name: pilascontrol
     server:
         port: 8010
+    router:
+        static:
+            resources:
+                enabled: true
+                mapping: /**
+                paths: classpath:public
 
 ---
 micronaut:
