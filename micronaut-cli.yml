@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: pilascontrol
+---
+testFramework: spock
+sourceLanguage: groovy
